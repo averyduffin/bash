@@ -123,6 +123,7 @@ if [ -f ~/.git-completion.bash ]; then
   . ~/.git-completion.bash
 fi
 
+alias gs='git status'
 alias gaa='git add -A'
 alias gcm='git commit -m'
 alias gcma='git commit -a -m'
